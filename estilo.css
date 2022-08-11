@@ -44,3 +44,14 @@ li a:hover{
  background-color: rgb(151, 49, 151);
  color: violet;
 }
+.boximag{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  background-color: aquamarine;
+  top: 30%;
+}
+#bola {
+  width: 80px;
+  height: 80;
+}
