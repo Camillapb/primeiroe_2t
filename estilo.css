@@ -1,57 +1,70 @@
 body {
-  background:rgb(255, 169, 169);
+  background: rgb(241, 67, 227);
 }
 h1 {
   text-align: center;
 }
 /*
-  position: absolute;
-  position: fixed;
-  position: sticky;
+   position: absolute;
+   position: fixed;
+   position: sticky;
 */
 .caixa1 {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background:rgb(126, 201, 247);
-  left: 50px;
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background: #73caca;
+   left: 50px;
 }
 .menuPrincipal {
-  position: absolute;
-  background: rgb(130, 255, 186);
+  position: absolute; 
+  background: rgb(23, 235, 76);
   width: 100%;
-  height: 30px;
+  height: 45px;
   top: 0;
 }
-nav ul{
-  list-style-type: none ;
+nav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: 0;
 }
-li{
+li {
   float: left;
 }
-li a{
+li a {
   display: block;
-  color: rgb(168, 75, 255);
+  color: rgb(255, 10, 10);
   text-align: center;
-  padding: 14px 16px ;
+  padding: 14px 16px;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
 }
-li a:hover{
- background-color: rgb(151, 49, 151);
- color: violet;
+li a:hover {
+  background: rgba(8, 94, 8, 0.185);
 }
-.boximag{
+.BoxImage {
+  width: 500px;
+  height: 350px;
+  background:rgba(238, 112, 8, 0.904);
+  top: 200px;
+}
+#daichi {
+  width: 110%;
+  height: 100%;
+}
+.rodape{
   position: absolute;
-  width: 400px;
-  height: 100px;
-  background-color: aquamarine;
-  top: 30%;
+  width: 100%;
+  height: 50px;
+  color: rgb(19, 15, 10);
+  background: pink;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
 }
-#bola {
-  width: 80px;
-  height: 80;
+.conteudoHome {
+position: absolute;
+top: 45px;
 }
